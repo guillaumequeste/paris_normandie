@@ -5,7 +5,7 @@ import './Footer.css'
 class Footer extends Component {
     render () {
         return (
-            <div>
+            <div className="footer">
                 <Link to="/profil">Profil</Link>
                 <Link to="/favoris">Favoris</Link>
                 <Link to="/a_lire">ALire</Link>

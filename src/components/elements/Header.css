@@ -1,0 +1,62 @@
+.header {
+    height: 10vh;
+    background-color: rgb(172, 199, 226);
+    display: flex;
+}
+
+.logo {
+    width: 60vw;
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.titreLogo {
+    width: 180px;
+    height: 35px;
+    border-bottom: solid 2px #1D569F;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+.paris {
+    width: 25px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: #1D569F;
+    padding-top: 7px;
+}
+
+.normandie {
+    width: 245px;
+    height: 35px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #1D569F;
+}
+
+.sabonner {
+    width: 40vw;
+    padding-right: 10vw;
+    display: flex;
+}
+
+.btn_sabonner {
+    margin: auto;
+    background-color: rgb(255, 196, 0);
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+.linkSabonner {
+    text-decoration: none;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    font-size: 2.2vw;
+    font-size: 2.2vh;
+}
