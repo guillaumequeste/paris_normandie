@@ -8,7 +8,9 @@ class Profil extends Component {
         return (
             <div>
                 <Header />
-                <h1>Profil</h1>
+                <div className="body">
+                    <h2>Profil</h2>
+                </div>
                 <Footer />
             </div>
         )

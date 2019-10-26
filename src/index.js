@@ -27,10 +27,10 @@ const Root = () => (
             <Route path='/infosMeteo' component={InfosMeteo}/>
             <Route path='/titres' component={Titres}/>
             <Route path='/favoris' component={Favoris}/>
-            <Route path='/a_lire' component={ALire}/>
-            <Route path='/infosMeteo/:id' component={InfosMeteoDetail}/>
-            <Route path='/titres/:id' component={TitresDetail}/>
-            <Route path='/favorisDetail' component={FavorisDetail}/>
+            <Route path='/articles_a_lire' component={ALire}/>
+            <Route path='/infoMeteo/:id' component={InfosMeteoDetail}/>
+            <Route path='/titre/:id' component={TitresDetail}/>
+            <Route path='/favori/:id' component={FavorisDetail}/>
             <Route path='/a_lire/:id' component={ALireDetail}/>
             <Route path="*" component={ErrorNotFound}/>
         </Switch>

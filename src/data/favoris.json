@@ -1,0 +1,15 @@
+[{
+    "id": "1",
+    "title": "favori1",
+    "debut": "Ceci est le début du favori 1"
+},
+{
+    "id": "2",
+    "title": "favori2",
+    "debut": "Ceci est le début du favori 2"
+},
+{
+    "id": "3",
+    "title": "favori3",
+    "debut": "Ceci est le début du favori 3"
+}]

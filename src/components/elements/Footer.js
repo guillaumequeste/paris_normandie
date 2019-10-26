@@ -26,7 +26,7 @@ class Footer extends Component {
                         </div>
                     </div>
                 </Link>
-                <Link to="/a_lire" className="choice">
+                <Link to="/articles_a_lire" className="choice">
                     <div className="btn_choice">
                         <div>
                             <img src={require("../../img/star.png")} alt="star" className="size_btn_choice"/>
