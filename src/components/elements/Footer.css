@@ -1,4 +1,25 @@
 .footer {
     height: 15vh;
     background-color: #1D569F;
+    display: flex;
+}
+
+.choice {
+    width: 25vw;
+    display: flex;
+}
+
+.btn_choice {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.size_btn_choice {
+    width: 50px;
+}
+
+.title_btn_choice {
+    color: white;
+    text-decoration: none;
 }
