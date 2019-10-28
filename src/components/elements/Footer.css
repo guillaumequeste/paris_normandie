@@ -7,6 +7,7 @@
 .choice {
     width: 25vw;
     display: flex;
+    text-decoration: none;
 }
 
 .btn_choice {
@@ -22,4 +23,8 @@
 .title_btn_choice {
     color: white;
     text-decoration: none;
+}
+
+.size_btn_choice {
+    color: white;
 }

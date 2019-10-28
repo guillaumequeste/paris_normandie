@@ -11,14 +11,28 @@ class ALire extends Component {
             <div>
                 <Header />
                 <div className="body">
-                    {aLire.map(({id, title, debut}) => (
-                        <div>
-                        <Link to={`/a_lire/${id}`} key={id}>
-                            {title}
-                        </Link><br></br>
-                        <p>{debut}</p>
-                        </div>
-                    ))}
+                    <h2>A lire :</h2>
+                    <div className="articles">
+                        {aLire.map(({id, title}) => (
+                            <Link to={`/a_lire/${id}`} key={id} className="titre_article">
+                                <div className="titre_article_image">
+                                    <div className="titre_article_image_apercu">
+                                        <img src={require("../../img/image.jpg")} alt="star" className="apercu"/>
+                                    </div>
+                                </div>
+                                <div className="titre_article_title">
+                                    {title}
+                                </div>
+                                <div className="container_cercle">
+                                    <div className="cercle_supp">
+                                        <div className="icone_supp">
+                                            <img src={require("../../img/read.png")} alt="star" className="size_icone_supp"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
                 </div>
                 <Footer />
             </div>

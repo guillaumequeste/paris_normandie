@@ -15,7 +15,7 @@ const App = () => (
             <div className="btn_playlist_gauche">
               <div className="btn_playlist_gauche_logo">
                 <div className="btn_playlist_gauche_logo_image">
-                  logo
+                  NORMANDIE
                 </div>
                 <div className="btn_playlist_gauche_logo_fr">
                   .fr
@@ -41,7 +41,7 @@ const App = () => (
             <div className="btn_playlist_gauche">
               <div className="btn_playlist_gauche_logo">
                 <div className="btn_playlist_gauche_logo_image">
-                  logo
+                  NORMANDIE
                 </div>
                 <div className="btn_playlist_gauche_logo_fr">
                   .fr
