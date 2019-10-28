@@ -26,7 +26,7 @@ class ALire extends Component {
                                 <div className="container_cercle">
                                     <div className="cercle_supp">
                                         <div className="icone_supp">
-                                            <img src={require("../../img/read.png")} alt="star" className="size_icone_supp"/>
+                                            <img src={require("../../img/read.png")} alt="read" className="size_icone_supp"/>
                                         </div>
                                     </div>
                                 </div>

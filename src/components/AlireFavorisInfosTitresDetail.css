@@ -1,5 +1,5 @@
 .body_detail {
-    margin-bottom: 10%;
+    justify-content: space-around;
 }
 
 .btn_titre {
@@ -10,8 +10,7 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 2%;
+    margin: 0 auto;
     text-decoration: none;
 }
 
@@ -44,13 +43,14 @@
 }
 
 .detail_article {
-    width: 90vw;
+    width: 85vw;
     border: solid 1px #1D569F;
-    margin: 2%;
+    margin: 0 auto;
     padding: 2% 2% 10% 2%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .detail_article_image {
@@ -61,6 +61,10 @@
 .view {
     width: 90%;
     margin: auto;
+}
+
+.detail_article_texte {
+    padding: 0 5%;
 }
 
 .detail_article_titre {
@@ -93,7 +97,75 @@
     }
 }
 
-.buttons {
-    width: 90vw;
-    z-index: 2;
+.btns {
+    position: absolute;
+    display: flex;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+@media screen and (min-width: 640px) {
+    .btns {
+        top: 90%;
+    }
+}
+
+.btn_base {
+    width: 25%;
+    position: relative;
+}
+
+.disc {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: -100%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: #1D569F;
+    border-radius: 50%;
+}
+
+.fav {
+    right: 100%;
+    left: 0;
+}
+
+.btn_base2 {
+    border-radius: 50%;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #1D569F;
+    position: relative;
+}
+
+.btn_icon {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.btn_size_icon_star {
+    width: 23px;
+}
+
+.toread {
+    left: 0;
+}
+
+.btn_icon_read {
+    position: absolute;
+    left: 27%;
+    top: 27%;
+}
+
+.btn_size_icon_read {
+    width: 18px;
+}
+
+.stop {
+    left: 0;
 }

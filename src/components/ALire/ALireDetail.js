@@ -52,11 +52,51 @@ class ALireDetail extends Component {
                             <div className="detail_article_image">
                                 <img src={require("../../img/image.jpg")} alt="image" className="view"/>
                             </div>
-                            <div className="detail_article_titre">
-                                <h2 className="detail_article_titre2">{aLire[this.props.match.params.id].title}</h2>
+                            <div className="detail_article_texte">
+                                <div className="detail_article_titre">
+                                    <h2 className="detail_article_titre2">{aLire[this.props.match.params.id].title}</h2>
+                                </div>
+                                <div clasName="detail_article_content">
+                                    <p className="detail_article_content2">{aLire[this.props.match.params.id].content}</p>
+                                </div>
                             </div>
-                            <div clasName="detail_article_content">
-                                <p className="detail_article_content2">{aLire[this.props.match.params.id].content}</p>
+                            <div className="btns">
+                                <div className="btn_base">
+                                    <div className="disc fav">
+                                        <div className="btn_base2">
+                                            <div className="btn_icon">
+                                                <img src={require("../../img/star.png")} alt="star" className="btn_size_icon_star"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="btn_base">
+                                    <div className="disc toread">
+                                        <div className="btn_base2">
+                                            <div className="btn_icon_read">
+                                                <img src={require("../../img/read.png")} alt="read" className="btn_size_icon_read"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="btn_base">
+                                    <div className="disc stop">
+                                        <div className="btn_base2">
+                                            <div className="btn_icon_read">
+                                                <img src={require("../../img/read.png")} alt="read" className="btn_size_icon_read"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="btn_base">
+                                    <div className="disc pause">
+                                        <div className="btn_base2">
+                                            <div className="btn_icon_read">
+                                                <img src={require("../../img/read.png")} alt="read" className="btn_size_icon_read"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
