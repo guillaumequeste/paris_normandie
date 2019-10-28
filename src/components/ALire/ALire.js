@@ -17,7 +17,7 @@ class ALire extends Component {
                             <Link to={`/a_lire/${id}`} key={id} className="titre_article">
                                 <div className="titre_article_image">
                                     <div className="titre_article_image_apercu">
-                                        <img src={require("../../img/image.jpg")} alt="star" className="apercu"/>
+                                        <img src={require("../../img/image.jpg")} alt="image" className="apercu"/>
                                     </div>
                                 </div>
                                 <div className="titre_article_title">
