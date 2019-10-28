@@ -9,10 +9,11 @@
     padding-left: 5vw;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .titreLogo {
-    width: 180px;
+    width: 220px;
     height: 35px;
     border-bottom: solid 2px #1D569F;
     padding-bottom: 1%;
@@ -20,17 +21,14 @@
 }
 
 .paris {
-    width: 25px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    font-size: 0.6em;
+    transform: rotate(-90deg);
     font-weight: bold;
     color: #1D569F;
-    padding-top: 7px;
+    display: flex;
+    font-size: 0.47rem;
 }
 
 .normandie {
-    width: 245px;
     height: 35px;
     font-size: 2em;
     font-weight: bold;

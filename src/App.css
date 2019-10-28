@@ -1,7 +1,86 @@
 .body {
     min-height: 75vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
     margin: 0;
+    padding: 2% 0 0 2%;
+}
+
+.div_btn_playlists {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_playlists {
+    width: 90vw;
+    height: 15vh;
+    background-color: #1D569F;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    margin: 2%;
+}
+
+.btn_playlist {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.btn_playlist_gauche {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.btn_playlist_gauche_logo {
+    display: flex;
+}
+
+.btn_playlist_gauche_logo_image {}
+
+.btn_playlist_gauche_logo_fr {
+    font-style: italic;
+}
+
+.btn_playlist_gauche_titre {
+    display: flex;
+}
+
+.btn_playlist_gauche_titre2 {
+    margin: auto;
+    font-weight: bold;
+}
+
+.btn_playlist_droite {
+    display: flex;
+    width: 20%;
+}
+
+.btn_playlist_droite_button {
+    margin: auto;
+}
+
+.cercle {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: rgb(172, 199, 226);
+    opacity: 0.95;
+    display: flex;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 0 18px 30px;
+    border-color: transparent transparent transparent white;
+    margin: auto;
+    margin-left: 35%;
 }

@@ -6,12 +6,12 @@ class Header extends Component {
     render () {
         return (
             <div className="header">
-                <div className="logo">
+                <Link to="/" className="logo">
                     <div className="titreLogo">
-                        <div className="paris">Paris</div>
-                        <div className="normandie">Normandie</div>
+                        <div className="paris">PARIS</div>
+                        <div className="normandie">NORMANDIE</div>
                     </div>
-                </div>
+                </Link>
                 <div className="sabonner">
                     <div className="btn_sabonner">
                         <Link to="/s_abonner" className="linkSabonner">S'abonner</Link>
