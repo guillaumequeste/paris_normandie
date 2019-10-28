@@ -8,10 +8,13 @@ class SAbonner extends Component {
         return (
             <div>
                 <Header />
-                <h1>S'abonner</h1>
+                <div className="body">
+                    <h2>S'abonner</h2>
+                </div>
                 <Footer />
             </div>
         )
     }
 }
+
 export default SAbonner

@@ -7,16 +7,16 @@ class Header extends Component {
         return (
             <div className="header">
                 <Link to="/" className="logo">
-                    <div className="titreLogo">
+                    <div className="title_logo">
                         <div className="paris">PARIS</div>
                         <div className="normandie">NORMANDIE</div>
                     </div>
                 </Link>
-                <div className="sabonner">
+                <Link to="/s_abonner" className="sabonner">
                     <div className="btn_sabonner">
-                        <Link to="/s_abonner" className="linkSabonner">S'abonner</Link>
+                        <Link to="/s_abonner" className="link_sabonner">S'abonner</Link>
                     </div>
-                </div>
+                </Link>
             </div>
         )
     }

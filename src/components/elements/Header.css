@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 
-.titreLogo {
+.title_logo {
     width: 220px;
     height: 35px;
     border-bottom: solid 2px #1D569F;
@@ -39,6 +39,7 @@
     width: 40vw;
     padding-right: 10vw;
     display: flex;
+    text-decoration: none;
 }
 
 .btn_sabonner {
@@ -50,7 +51,7 @@
     border-radius: 5px;
 }
 
-.linkSabonner {
+.link_sabonner {
     text-decoration: none;
     margin: auto;
     color: black;

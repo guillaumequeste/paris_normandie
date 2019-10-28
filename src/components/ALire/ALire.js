@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './ALire.css'
+import '../AlireFavorisInfosTitres.css'
 import Header from '../elements/Header'
 import Footer from '../elements/Footer'
 import aLire from '../../data/aLire.json'

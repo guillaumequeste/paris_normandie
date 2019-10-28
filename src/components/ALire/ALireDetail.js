@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './ALireDetail.css'
+import { Link } from 'react-router-dom'
+import '../AlireFavorisInfosTitresDetail.css'
 import Header from '../elements/Header'
 import Footer from '../elements/Footer'
 
@@ -32,7 +33,7 @@ class ALireDetail extends Component {
             <div>
                 <Header />
                     <div className="body body_detail">
-                        <div className="btn_titre">
+                        <Link to="/infosMeteo" className="btn_titre">
                             <div className="btn_titre_logo">
                                 <div className="btn_titre_logo_image">
                                 NORMANDIE
@@ -46,7 +47,7 @@ class ALireDetail extends Component {
                                     les infos et la météo du jour en Normandie
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                         <div className="detail_article">
                             <div className="detail_article_image">
                                 <img src={require("../../img/image.jpg")} alt="image" className="view"/>

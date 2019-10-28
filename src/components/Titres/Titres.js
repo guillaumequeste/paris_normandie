@@ -1,25 +1,39 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './Titres.css'
+import '../AlireFavorisInfosTitres.css'
 import Header from '../elements/Header'
 import Footer from '../elements/Footer'
-import titres from '../../data/titres.json'
+import aLire from '../../data/titres.json'
 
 class Titres extends Component {
     render () {
         return (
             <div>
                 <Header />
-                    <div className="body">
-                        {titres.map(({id, title, debut}) => (
-                            <div>
-                                <Link to={`/titre/${id}`} key={id}>
+                <div className="body">
+                    <h2>Les titres à la une :</h2>
+                    <div className="articles">
+                        {aLire.map(({id, title}) => (
+                            <Link to={`/titre/${id}`} key={id} className="titre_article">
+                                <div className="titre_article_image">
+                                    <div className="titre_article_image_apercu">
+                                        <img src={require("../../img/image.jpg")} alt="image" className="apercu"/>
+                                    </div>
+                                </div>
+                                <div className="titre_article_title">
                                     {title}
-                                </Link><br></br>
-                                <p>{debut}</p>
-                            </div>
+                                </div>
+                                <div className="container_cercle">
+                                    <div className="cercle_supp">
+                                        <div className="icone_supp">
+                                            <img src={require("../../img/read.png")} alt="star" className="size_icone_supp"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
                         ))}
                     </div>
+                </div>
                 <Footer />
             </div>
         )

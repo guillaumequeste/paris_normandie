@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 class Footer extends Component {
@@ -9,7 +9,7 @@ class Footer extends Component {
                 <Link to="/profil" className="choice">
                     <div className="btn_choice">
                         <div>
-                            <img src={require("../../img/profile.jpg")} alt="star" className="size_btn_choice"/>
+                            <img src={require("../../img/profile.jpg")} alt="profile" className="size_btn_choice"/>
                         </div>
                         <div>
                             <span className="title_btn_choice">profile</span>

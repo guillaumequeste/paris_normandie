@@ -18,13 +18,10 @@
 
 .size_btn_choice {
     width: 50px;
+    color: white;
 }
 
 .title_btn_choice {
     color: white;
     text-decoration: none;
-}
-
-.size_btn_choice {
-    color: white;
 }
