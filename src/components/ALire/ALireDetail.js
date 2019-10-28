@@ -64,7 +64,7 @@ class ALireDetail extends Component {
                                 <div className="btn_base">
                                     <div className="disc fav">
                                         <div className="btn_base2">
-                                            <div className="btn_icon">
+                                            <div className="btn_icon_star">
                                                 <img src={require("../../img/star.png")} alt="star" className="btn_size_icon_star"/>
                                             </div>
                                         </div>
