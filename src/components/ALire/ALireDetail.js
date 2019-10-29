@@ -4,7 +4,7 @@ import '../AlireFavorisInfosTitresDetail.css'
 import Header from '../elements/Header'
 import Footer from '../elements/Footer'
 
-const aLire = {
+const aLireDetail = {
     1: { 
          title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
          content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
@@ -57,10 +57,10 @@ class ALireDetail extends Component {
                                 </div>
                                 <div className="detail_article_texte">
                                     <div className="detail_article_titre">
-                                        <h2 className="detail_article_titre2">{aLire[this.props.match.params.id].title}</h2>
+                                        <h2 className="detail_article_titre2">{aLireDetail[this.props.match.params.id].title}</h2>
                                     </div>
                                     <div clasName="detail_article_content">
-                                        <p className="detail_article_content2">{aLire[this.props.match.params.id].content}</p>
+                                        <p className="detail_article_content2">{aLireDetail[this.props.match.params.id].content}</p>
                                     </div>
                                 </div>
                                 <div className="btns">
