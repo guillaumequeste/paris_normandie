@@ -24,7 +24,27 @@ const infosMeteoDetail = {
     5: { 
         title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
         content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
-    }
+    },
+    6: { 
+        title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
+        content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
+    },
+    7: { 
+        title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
+        content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
+    },
+    8: { 
+       title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
+       content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
+   },
+   9: { 
+       title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
+       content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
+   },
+   10: { 
+    title: "En Normandie, immersion dans le potager extraordinaire du champion de France des légumes géants",
+    content: "Insolite. Depuis sept ans, Samuel Brault cultive des courges un peu spéciales dans son potager manchois. Et chaque année, il présente ses plus beaux spécimens au concours national des légumes géants de la Motte-Achard, en Vendée. Avec un potiron de 430 kg, il est encore une fois champion de France...."
+}
  }
 
 class InfosMeteoDetail extends Component {
