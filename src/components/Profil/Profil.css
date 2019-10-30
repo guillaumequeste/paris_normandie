@@ -1,0 +1,30 @@
+.bodyProfil {
+    min-height: 30vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bodyProfil2 {
+    margin: auto;
+}
+
+.data {
+    font-size: 0.8em;
+}
+
+@media screen and (min-width: 640px) {
+    .data {
+        font-size: 1em;
+    }
+}
+
+.btn_edit {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+}
+
+.btn_form {
+    width: 70px;
+}
