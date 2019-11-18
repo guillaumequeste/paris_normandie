@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../AlireFavorisInfosTitresDetail.css'
 import Header from '../elements/Header'
 import Footer from '../elements/Footer'
-import aLire from '../../data/aLire.json'
 
 const aLireDetail = {
     1: { 
@@ -54,13 +53,13 @@ class ALireDetail extends Component {
                         <div className="detail_body_article">
                             <div className="detail_article">
                                 <div className="detail_article_image">
-                                    <img src={require("../../img/image.jpg")} alt="image" className="view"/>
+                                    <img src={require("../../img/image.jpg")} alt="imageALireDetail" className="view"/>
                                 </div>
                                 <div className="detail_article_texte">
                                     <div className="detail_article_titre">
-                                        <h2 className="detail_article_titre2">{aLire[this.props.match.params.id].title}</h2>
+                                        <h2 className="detail_article_titre2">{aLireDetail[this.props.match.params.id].title}</h2>
                                     </div>
-                                    <div clasName="detail_article_content">
+                                    <div className="detail_article_content">
                                         <p className="detail_article_content2">{aLireDetail[this.props.match.params.id].content}</p>
                                     </div>
                                 </div>

@@ -14,7 +14,7 @@ class Header extends Component {
                 </Link>
                 <Link to="/s_abonner" className="sabonner">
                     <div className="btn_sabonner">
-                        <Link to="/s_abonner" className="link_sabonner">S'abonner</Link>
+                        <span className="link_sabonner">S'abonner</span>
                     </div>
                 </Link>
             </div>

@@ -73,13 +73,13 @@ class Titres extends Component {
                         <div className="detail_body_article">
                             <div className="detail_article">
                                 <div className="detail_article_image">
-                                    <img src={require("../../img/image.jpg")} alt="image" className="view"/>
+                                    <img src={require("../../img/image.jpg")} alt="imageTitresDetail" className="view"/>
                                 </div>
                                 <div className="detail_article_texte">
                                     <div className="detail_article_titre">
                                         <h2 className="detail_article_titre2">{titresDetail[this.props.match.params.id].title}</h2>
                                     </div>
-                                    <div clasName="detail_article_content">
+                                    <div className="detail_article_content">
                                         <p className="detail_article_content2">{titresDetail[this.props.match.params.id].content}</p>
                                     </div>
                                 </div>

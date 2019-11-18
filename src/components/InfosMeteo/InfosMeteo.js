@@ -17,7 +17,7 @@ class InfosMeteo extends Component {
                             <Link to={`/infoMeteo/${id}`} key={id} className="titre_article">
                                 <div className="titre_article_image">
                                     <div className="titre_article_image_apercu">
-                                        <img src={require("../../img/image.jpg")} alt="image" className="apercu"/>
+                                        <img src={require("../../img/image.jpg")} alt="imageInfosMeteo" className="apercu"/>
                                     </div>
                                 </div>
                                 <div className="titre_article_title">
